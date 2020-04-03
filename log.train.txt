@@ -1,0 +1,172 @@
+
+--- [START 2020-04-03_08-47-31] ----------------------------------------------------------------
+
+	@common.py:  
+	set random seed
+		SEED = 1585903651
+	set cuda environment
+		torch.__version__              = 1.4.0
+		torch.version.cuda             = 10.1
+		torch.backends.cudnn.version() = 7603
+		os['CUDA_VISIBLE_DEVICES']     = None
+		torch.cuda.device_count()      = 4
+
+
+
+	SEED         = 1585903651
+	__file__     = train.py
+	out_dir      = /root/face2face
+
+** dataset setting **
+** net setting **
+	initial_checkpoint = None
+<class 'torch.nn.parallel.data_parallel.DataParallel'>
+
+optimizer
+  SGD (
+Parameter Group 0
+    dampening: 0
+    initial_lr: 0.1
+    lr: 0.1
+    momentum: 0.9
+    nesterov: False
+    weight_decay: 0.0005
+)
+schduler
+  <torch.optim.lr_scheduler.StepLR object at 0x7f689aa34be0>
+
+** start training here! **
+   batch_size=512,  iter_accum=1
+                       |---------------- TRAIN/BATCH -------------
+rate      iter   epoch |  loss   hit_accuracy    | time         
+----------------------------------------------------------------------------
+0.00000    0.0*   0.0 |  0.000   0.00 |  0 hr 00 min
+
+--- [START 2020-04-03_08-56-02] ----------------------------------------------------------------
+
+	@common.py:  
+	set random seed
+		SEED = 1585904162
+	set cuda environment
+		torch.__version__              = 1.4.0
+		torch.version.cuda             = 10.1
+		torch.backends.cudnn.version() = 7603
+		os['CUDA_VISIBLE_DEVICES']     = None
+		torch.cuda.device_count()      = 4
+
+
+
+	SEED         = 1585904162
+	__file__     = train.py
+	out_dir      = /root/face2face
+
+** dataset setting **
+** net setting **
+	initial_checkpoint = None
+<class 'torch.nn.parallel.data_parallel.DataParallel'>
+
+optimizer
+  SGD (
+Parameter Group 0
+    dampening: 0
+    initial_lr: 0.1
+    lr: 0.1
+    momentum: 0.9
+    nesterov: False
+    weight_decay: 0.0005
+)
+schduler
+  <torch.optim.lr_scheduler.StepLR object at 0x7f74deef4cf8>
+
+** start training here! **
+   batch_size=512,  iter_accum=1
+                       |---------------- TRAIN/BATCH ------------- |
+rate      iter   epoch |  loss   hit_accuracy    | time         
+--------------------------------------------------------------------
+0.00000    0.0*   0.0 |  0.000   0.00 |  0 hr 00 min
+
+--- [START 2020-04-03_08-59-24] ----------------------------------------------------------------
+
+	@common.py:  
+	set random seed
+		SEED = 1585904364
+	set cuda environment
+		torch.__version__              = 1.4.0
+		torch.version.cuda             = 10.1
+		torch.backends.cudnn.version() = 7603
+		os['CUDA_VISIBLE_DEVICES']     = None
+		torch.cuda.device_count()      = 4
+
+
+
+	SEED         = 1585904364
+	__file__     = train.py
+	out_dir      = /root/face2face
+
+** dataset setting **
+** net setting **
+	initial_checkpoint = None
+<class 'torch.nn.parallel.data_parallel.DataParallel'>
+
+optimizer
+  SGD (
+Parameter Group 0
+    dampening: 0
+    initial_lr: 0.1
+    lr: 0.1
+    momentum: 0.9
+    nesterov: False
+    weight_decay: 0.0005
+)
+schduler
+  <torch.optim.lr_scheduler.StepLR object at 0x7f7ac2973cf8>
+
+** start training here! **
+   batch_size=512,  iter_accum=1
+                       |---------------- TRAIN/BATCH ------------- |
+rate      iter   epoch |  loss   hit_accuracy    | time         
+--------------------------------------------------------------------
+0.00000    0.0*   0.0 |  0.000   0.00 |  0 hr 00 min
+
+--- [START 2020-04-03_09-00-26] ----------------------------------------------------------------
+
+	@common.py:  
+	set random seed
+		SEED = 1585904426
+	set cuda environment
+		torch.__version__              = 1.4.0
+		torch.version.cuda             = 10.1
+		torch.backends.cudnn.version() = 7603
+		os['CUDA_VISIBLE_DEVICES']     = None
+		torch.cuda.device_count()      = 4
+
+
+
+	SEED         = 1585904426
+	__file__     = train.py
+	out_dir      = /root/face2face
+
+** dataset setting **
+** net setting **
+	initial_checkpoint = None
+<class 'torch.nn.parallel.data_parallel.DataParallel'>
+
+optimizer
+  SGD (
+Parameter Group 0
+    dampening: 0
+    initial_lr: 0.1
+    lr: 0.1
+    momentum: 0.9
+    nesterov: False
+    weight_decay: 0.0005
+)
+schduler
+  <torch.optim.lr_scheduler.StepLR object at 0x7fb950a2bcf8>
+
+** start training here! **
+   batch_size=512,  iter_accum=1
+                       |---------------- TRAIN/BATCH ------------- |
+rate      iter   epoch |  loss   hit_accuracy    | time         
+--------------------------------------------------------------------
+0.00000    0.0*   0.0 |  0.000   0.00 |  0 hr 00 min
